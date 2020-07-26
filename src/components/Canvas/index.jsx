@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { StyledDiv, StyledCanvas } from "./styled";
 export default function Canvas() {
+  // TODO Make canvas by guide https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
   const CanvasRef = useRef(null);
   useEffect(() => {
     const ctx = CanvasRef.current.getContext("2d");
